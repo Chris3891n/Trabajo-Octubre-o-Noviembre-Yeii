@@ -1,0 +1,6 @@
+DETECTOR DE RESPONSABILIDADES
+
+Proyecto de demostración de Git Blame.
+
+Integrante 1: Configuró el repositorio Git.
+Integrante 1: Creó la estructura inicial del proyecto.
