@@ -32,3 +32,26 @@ CambiosExitosos.Ncambios()
 
 const NumeradorDeErrores = new Errores(10)
 NumeradorDeErrores.errores()
+
+
+function RegistrarUsuario(nombre:string, apellido1:string, apellido2:string): void{
+    if (nombre.trim() === "" || apellido1.trim() === "" || apellido2.trim() === "") {
+        console.log("Todos los campos son obligatorios");
+        return;
+    }
+
+    if (nombre.trim().length < 3) {
+        console.log("El nombre debe tener al menos 3 caracteres");
+        return;
+    }
+
+    console.log("Usuario registrado correctamente");
+    console.log("Nombre completo: " + nombre.trim() + " " + apellido1.trim() + " " + apellido2.trim());
+}
+
+// USUARIO 1
+RegistrarUsuario("Natali", "Guzmán", "Cáceres");
+
+// USUARIO 2
+RegistrarUsuario("Christofer", "Núñez", "Muñoz");
+
