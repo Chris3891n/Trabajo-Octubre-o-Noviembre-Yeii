@@ -53,5 +53,5 @@ function RegistrarUsuario(nombre:string, apellido1:string, apellido2:string): vo
 RegistrarUsuario("Natali", "Guzmán", "Cáceres");
 
 // USUARIO 2
-RegistrarUsuario("Christofer", "Núñez", "Muñoz");
+RegistrarUsuario("Christopher", "Núñez", "Muñoz");
 
